@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactform1</title>
+  <link rel="stylesheet" href="./contactform1.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <a href="bootcamp.html">
+        <img src="./LinasLogo.png" width="150px" />
+      </a>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="#">ABOUT US</a></li>
+        <li> <a href="#">PRODUCTS</a></li>
+        <li> <a href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="form_div">
+      <form action="#" class="contact-form">
+        <div class="titulli">
+          <h1>Lina's gift shop</h1>
+        </div>
+        <div class="form_box">
+
+          <div class="form_row">
+            <div class="form_row_col">
+              <label for="Firstname" class="contact-form_lable">First name</label>
+              <input required type="text" name="Firstname" id="firstname" class="contact-form_input" autocomplete="0">
+            </div>
+            <div class="form_row_col">
+              <label for="Lastname" class="contact-form_lable">Last name</label>
+              <input required type="text" name="Lastname" id="lastname" class="contact-form_input" autocomplete="0">
+            </div>
+          </div>
+
+          <div class="form_row">
+            <div class="form_row_col">
+              <label for="Email" class="contact-form_lable">Email</label>
+              <input required type="email" name="email" id="email" class="contact-form_input" autocomplete="0">
+            </div>
+            <div class="form_row_col">
+              <label for="Phone" class="contact-form_lable">Phone number</label>
+              <input required type="text" name="Phone number" id="phonenumber" class="contact-form_input" autocomplete="0">
+            </div>
+          </div>
+          <div class="form_row">
+            <div class="form_row_col">
+              <label for="address" class="contact-form_lable">Adress</label>
+              <input required type="text" name="address" class="contact-form_input" id="adress" autocomplete="0">
+            </div>
+            <div class="form_row_col">
+              <label for="creditcard" class="contact-form_lable">Credit card</label>
+              <input required type="text" name="creditcard" id="creditcard" class="contact-form_input" autocomplete="0" maxlength="16">
+            </div>
+          </div>
+          <div class="form_row1">
+            <label for="Pcs" class="contact-form_lable">Pcs</label>
+            <input type="number" name="pcs" id="pcs" class="contact-form_input">
+          </div>
+          <button type="submit" id="contact-form_button">Submit</button>
+
+        </div>
+      </form>
+    </div>
+    <button onclick="myFunction()" id="buttonData">MyData</button>
+  </div>
+    <div id="footer">
+      <div class="footer_box">
+        <img src="./LinasLogo.png" alt="" width="150px">
+        <p>Lina's gift shop</p>
+        <div class="icons">
+          <img src="./fcb.png" alt="">
+          <a href="https://www.instagram.com/linasgiftshop_?igsh=OGhkeDFrd3A5c2Zi"> <img src="./instagram-icon-logo-free-png.webp" alt="" width="20px"></a>
+          <img src="./pintrest.png" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="./contactform.js">
+     
+    </script>
+</body>
+
+</html>
